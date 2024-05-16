@@ -1,0 +1,3 @@
+exit 1
+
+cd 04-nextjs-rick-and-morty && npx lint-staged
