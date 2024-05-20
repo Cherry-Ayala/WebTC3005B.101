@@ -1,5 +1,4 @@
-// extend matchers
-import '@testing-library/jest-dom/vitest'
+// helpers/setupTests.ts
 import { afterAll, beforeAll, afterEach } from 'vitest'
 import { server } from '@/mocks/server'
 
