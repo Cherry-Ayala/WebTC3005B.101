@@ -5,7 +5,7 @@ import { getAllCharacters } from '@/services/getCharacter'
 import { Characters } from '@/ui/pages/Characters'
 import { Pagination } from '@/ui/molecules/Pagination'
 import { PageProps } from '@/types/page'
-import { Character } from '@/types/character'
+import { Character } from '@/types/Character'
 
 export default async function CharactersPage({ searchParams }: PageProps) {
   const currentPage = searchParams.page ?? '1'

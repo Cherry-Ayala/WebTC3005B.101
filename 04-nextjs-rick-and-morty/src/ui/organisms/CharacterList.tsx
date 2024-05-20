@@ -1,4 +1,4 @@
-import { Character } from '@/types/character'
+import { Character } from '@/types/Character'
 import { CharacterComponent } from './Character'
 
 export interface CharacterListProps {
